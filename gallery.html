@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port Said University Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+      background-color: #d8ecf3;
+      color: darkblue;
+    }
+
+    h1 {
+      margin: 20px 0;
+    }
+
+    .navbar {
+      background-color: #004080;
+      
+    }
+
+    .navbar-nav .nav-link {
+      color: white;
+      font-size: 1.2rem;
+    }
+
+    .navbar-light .navbar-toggler {
+      border-color: white;
+      
+    }
+
+    .navbar-brand, .nav-link, .search-input {
+      color: white;
+      padding: 25px;
+      margin-left: 35px;
+    }
+
+
+        .container {
+            margin-top: 30px;
+        }
+
+        footer {
+            background-color: #004080;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .gallery-title {
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .gallery-caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .gallery-item:hover .gallery-caption {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#">
+                <img src="webimages/شعار_جامعة_بورسعيد.png" width="50" alt="Port Said University Logo">
+                Port Said University
+            </a>
+            <div class="collapse navbar-collapse justify-content-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index2.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="new acadmics html.html">Academics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="new admission.html">Admission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="gallery-title">Port Said University Gallery</h1>
+        <div class="row g-3">
+            <!-- Gallery Item 1 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="gallery-item">
+                    <img src="webimages/386607173_709686901198022_711248578709946927_n.jpg" alt="College Building" class="img-fluid">
+                    <div class="gallery-caption">The main building of our college.</div>
+                </div>
+                <div class="gallery-item mt-3">
+                    <img src="webimages/commerce.jpeg" alt="College Building Side View" class="img-fluid">
+                    <div class="gallery-caption">Side view of the historic college building.</div>
+                </div>
+                <div class="gallery-item mt-3">
+                    <img src="webimages/33.jpeg" alt="College Campus" class="img-fluid">
+                    <div class="gallery-caption">Aerial shot of the expansive college campus.</div>
+                </div>
+                <div class="gallery-item mt-3">
+                    <img src="webimages/33.jpeg" alt="College Campus" class="img-fluid">
+                    <div class="gallery-caption">Aerial shot of the expansive college campus.</div>
+                </div>
+            </div>
+            <!-- Gallery Item 2 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="gallery-item">
+                    <img src="webimages/class.jpeg" alt="Classroom Discussion" class="img-fluid">
+                    <div class="gallery-caption">A dynamic classroom discussion in progress.</div>
+                </div>
+                <div class="gallery-item mt-3">
+                    <img src="webimages/class2.jpeg" alt="Lecture in Progress" class="img-fluid">
+                    <div class="gallery-caption">Lecture in full swing with attentive students.</div>
+                </div>
+                <div class="gallery-item mt-3">
+                    <img src="webimages/class3.jpeg" alt="Interactive Session" class="img-fluid">
+                    <div class="gallery-caption">Interactive session with guest lecturers.</div>
+                </div>
+                <div class="gallery-item mt-3">
+                    <img src="webimages/33.jpeg" alt="College Campus" class="img-fluid">
+                    <div class="gallery-caption">Aerial shot of the expansive college campus.</div>
+                </div>
+            </div>
+            <!-- Gallery Item 3 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="gallery-item">
+                    <img src="webimages/library.jpeg" alt="Library Interior" class="img-fluid">
+                    <div class="gallery-caption">Interior view of the university library.</div>
+                </div>
+                <div class="gallery-item mt-3">
+                    <img src="webimages/graduationproject2.jpg" alt="Library Study Area" class="img-fluid">
+                    <div class="gallery-caption">Graduation Project day.</div>
+                </div>
+                <div class="gallery-item mt-3">
+                    <img src="webimages/graduationproject.jpg" alt="Library Resources" class="img-fluid">
+                    <div class="gallery-caption">Graduation Project Discussion.</div>
+                </div>
+            </div>
+            <!-- Gallery Item 4 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="gallery-item">
+                    <img src="webimages/project.jpg" alt="Lab Experiment" class="img-fluid">
+                    <div class="gallery-caption">Student Celebrating His First project.</div>
+                </div>
+                <div class="gallery-item mt-3">
+                    <img src="webimages/drugs.jpg" alt="Research Work" class="img-fluid">
+                    <div class="gallery-caption">No to drugs campaign.</div>
+                </div>
+                <div class="gallery-item mt-3">
+                    <img src="webimages/communication.jpg" alt="State-of-the-Art Equipment" class="img-fluid">
+                    <div class="gallery-caption">Communication Department Celberating the Last Mid_Term Exam.</div>
+                </div>
+             
+            </div>
+            <!-- Gallery Item 5 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="gallery-item">
+                    <img src="webimages/party2.jpg" alt="Graduation Ceremony" class="img-fluid">
+                    <div class="gallery-caption">The graduation ceremony .</div>
+                </div>
+                <div class="gallery-item mt-3">
+                    <img src="webimages/a.jpg" alt="Proud Graduates" class="img-fluid">
+                    <div class="gallery-caption">Proud graduates ready to take on the world.</div>
+                </div>
+                <div class="gallery-item mt-3">
+                    <img src="webimages/party.jpg" alt="Caps in the Air" class="img-fluid">
+                    <div class="gallery-caption">A tradition - tossing caps in the air.</div>
+                </div>
+                <div class="gallery-item mt-3">
+                    <img src="webimages/dance (1).jpg" alt="Caps in the Air" class="img-fluid">
+                    <div class="gallery-caption">Students Dancing & Celebrating </div>
+                </div>
+                <div class="gallery-item mt-3">
+                    <img src="webimages/qasm (1).jpg" alt="Caps in the Air" class="img-fluid">
+                    <div class="gallery-caption">Students are invited to the Profession Honors Department</div>
+                </div>
+                <div class="gallery-item mt-3">
+                    <img src="webimages/qasm (6).jpg" alt="Caps in the Air" class="img-fluid">
+                    <div class="gallery-caption">.</div>
+                </div>
+            </div>
+            <!-- Gallery Item 6 -->
+            <div class="col-md-4 col-sm-6">
+                <div class="gallery-item">
+                    <img src="webimages/fun3.jpg" alt="Sports Event" class="img-fluid">
+                    <div class="gallery-caption">Student participating in the Funday.</div>
+                </div>
+                <div class="gallery-item mt-3">
+                    <img src="webimages/fun2.jpg" alt="Cheering Crowd" class="img-fluid">
+                    <div class="gallery-caption">The cheering Of The Senior Year.</div>
+                </div>
+                <div class="gallery-item mt-3">
+                    <img src="webimages/funday.jpg" alt="Athlete Victory" class="img-fluid">
+                    <div class="gallery-caption">Celebrating The Senior Year.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Port Said University. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="https://www.facebook.com/PortSaidUniversity" target="_blank" aria-label="Facebook">
+            <img src="webimages/Facebook_Logo_2023.png" width="25" alt="Facebook">
+          </a>
+          <a href="https://www.linkedin.com/school/port-said-university" target="_blank" aria-label="LinkedIn">
+            <img src="webimages/linked in.png" width="25" alt="LinkedIn">
+          </a>
+        </div>
+      </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
